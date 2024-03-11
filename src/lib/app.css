@@ -1,0 +1,18 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+    background: #FFF ;
+}
+
+.nav-top{
+    font-size: .9375em;;
+}
+/* p{
+    font-family:'DM Sans', 'sans-serif';
+} */
