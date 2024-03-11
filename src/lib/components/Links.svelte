@@ -322,14 +322,14 @@
                         >
                             <a
                                 style="width: 80%"
-                                href="#"
+                                href="/#/"
                                 class="block rounded-full w-80 p-2 text-center text-black bg-white hover:bg-black hover:text-white transition absolute bottom-3 left-0 right-0 mx-auto"
                                 >Add to cart</a
                             >
                         </div>
                     </div>
                     <div class="pt-2 pb-3 pl-0 pr-2">
-                        <a href="#">
+                        <a href="/#/">
                             <h4
                                 class=" font-medium text-sm mb-0 text-gray-800 hover:text-primary transition"
                             >

@@ -137,22 +137,14 @@
         </div>
 
         <div class="">
-            <!-- <div class="dropdown dropdown-hover dropdown-end">
-				<label class="btn">Theme</label>
-				<ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 h-96 overflow-scroll">
-					<form method="POST" use:enhance={submitUpdateTheme}>
-						{#each themes as theme}
-							<li>
-								<button formaction="/?/setTheme&theme={theme}&redirectTo={$page.url.pathname}"
-									>{theme}</button
-								>
-							</li>
-						{/each}
-					</form>
-				</ul>
-			</div> -->
-            <label class="btn btn-primary">My Account</label>
-            <a href="/cart"><label class="btn btn-primary">Cart </label></a>
+            <label for="my-acc" class="btn btn-primary"
+                ><span id="my-acc">My Account</span></label
+            >
+            <a href="/cart"
+                ><label for="my-cart" class="btn btn-primary"
+                    ><span id="my-cart">Cart</span></label
+                ></a
+            >
         </div>
     </div>
     <!-- <div class="flex items-center justify-between p-2 lg:container lg:mx-auto pb-10">
