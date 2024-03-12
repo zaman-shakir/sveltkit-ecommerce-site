@@ -10,7 +10,7 @@
                     <img
                         src="https://wpdemo.triple-a.io/wp-content/uploads/2022/11/Group-75-300x190.png"
                         alt="product"
-                        class="w-full"
+                        width="80%"
                     />
                     <div class="grid grid-cols-5 gap-4 mt-4">
                         <img

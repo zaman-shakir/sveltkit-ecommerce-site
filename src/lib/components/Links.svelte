@@ -312,8 +312,8 @@
                 <div class="bg-white overflow-hidden">
                     <div class="relative group">
                         <img
-                            src="https://wpdemo.triple-a.io/wp-content/uploads/2022/11/Group-75-300x190.png"
-                            alt="product 1"
+                            src={product.image_link}
+                            alt={product.title}
                             class="w-full"
                         />
                         <div
