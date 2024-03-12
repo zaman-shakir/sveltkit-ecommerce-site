@@ -3,37 +3,7 @@
     import Drawer from "./Drawer.svelte";
     //import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-    const themes = [
-        "light",
-        "dark",
-        "cupcake",
-        "bumblebee",
-        "emerald",
-        "corporate",
-        "synthwave",
-        "retro",
-        "cyberpunk",
-        "valentine",
-        "halloween",
-        "garden",
-        "forest",
-        "aqua",
-        "lofi",
-        "pastel",
-        "fantasy",
-        "wireframe",
-        "black",
-        "luxury",
-        "dracula",
-        "cmyk",
-        "autumn",
-        "business",
-        "acid",
-        "lemonade",
-        "night",
-        "coffee",
-        "winter",
-    ];
+    const themes = ["light"];
 </script>
 
 <div class="bg-base-100 sticky top-0 z-40 pb-10">

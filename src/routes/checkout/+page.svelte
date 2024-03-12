@@ -9,7 +9,7 @@
         <div class="flex flex-col justify-center items-center w-full space-y-9">
             <div class="flex justify-start flex-col items-start space-y-2">
                 <p
-                    class="text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9 text-gray-800 dark:text-gray-50"
+                    class="text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9 text-gray-800"
                 >
                     Checkout
                 </p>
@@ -19,7 +19,7 @@
                 class="flex flex-col xl:flex-row justify-center xl:justify-between space-y-6 xl:space-y-0 xl:space-x-6 w-full"
             >
                 <div
-                    class="xl:w-3/5 flex flex-col sm:flex-row xl:flex-col justify-start items-start bg-gray-100 dark:bg-gray-800 py-7 sm:py-0 xl:py-10 px-10 xl:w-full"
+                    class="xl:w-3/5 flex flex-col sm:flex-row xl:flex-col justify-start items-start bg-gray-100 py-7 sm:py-0 xl:py-10 px-10 xl:w-full"
                 >
                     <div class="mb-5">
                         <p class="text-xl font-bold">Billing Details</p>
@@ -54,11 +54,9 @@
                     </div> -->
                 </div>
 
-                <div
-                    class="p-8 bg-gray-100 dark:bg-gray-800 flex flex-col lg:w-full xl:w-3/5"
-                >
+                <div class="p-8 bg-gray-100 flex flex-col lg:w-full xl:w-3/5">
                     <button
-                        class="border border-transparent hover:border-gray-300 bg-gray-900 dark:bg-white dark:hover:bg-gray-900 dark:hover:border-gray-900 dark:text-gray-900 dark:hover:text-white hover:bg-white text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full"
+                        class="border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full"
                     >
                         <div>
                             <svg
@@ -87,7 +85,7 @@
                     <div class="flex flex-row justify-center items-center mt-6">
                         <hr class="border w-full" />
                         <p
-                            class="flex flex-shrink-0 px-4 text-base leading-4 text-gray-600 dark:text-white"
+                            class="flex flex-shrink-0 px-4 text-base leading-4 text-gray-600"
                         >
                             or pay with card
                         </p>
@@ -106,7 +104,7 @@
 
                     <label
                         for="card-details"
-                        class="mt-8 text-base leading-4 text-gray-800 dark:text-gray-50"
+                        class="mt-8 text-base leading-4 text-gray-800"
                         >Card details</label
                     >
                     <div class="mt-2 flex-col">
@@ -139,7 +137,7 @@
 
                     <label
                         for="card-name"
-                        class="mt-8 text-base leading-4 text-gray-800 dark:text-gray-50"
+                        class="mt-8 text-base leading-4 text-gray-800"
                         >Name on card</label
                     >
                     <div class="mt-2 flex-col">
@@ -156,7 +154,7 @@
 
                     <label
                         for="changetext"
-                        class="mt-8 text-base leading-4 text-gray-800 dark:text-gray-50"
+                        class="mt-8 text-base leading-4 text-gray-800"
                         >Country or region</label
                     >
                     <div class="mt-2 flex-col">
@@ -230,7 +228,7 @@
                     </div>
 
                     <button
-                        class="mt-8 border border-transparent hover:border-gray-300 dark:bg-white dark:hover:bg-gray-900 dark:text-gray-900 dark:hover:text-white dark:border-transparent bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full"
+                        class="mt-8 border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full"
                     >
                         <div>
                             <p class="text-base leading-4">Pay</p>
